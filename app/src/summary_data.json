@@ -1,0 +1,4527 @@
+{
+ "summary": {
+  "totalSamples": 57882,
+  "totalProjects": 165,
+  "totalDiseases": 53,
+  "totalContinents": 6,
+  "totalCountries": 33,
+  "totalProvinces": 97,
+  "totalCities": 134
+ },
+ "diseases": [
+  {
+   "disease": "AD",
+   "samples": 17440,
+   "projects": 30,
+   "rows": 32,
+   "zh": "AD"
+  },
+  {
+   "disease": "MI",
+   "samples": 14759,
+   "projects": 21,
+   "rows": 27,
+   "zh": "MI"
+  },
+  {
+   "disease": "NORMAL",
+   "samples": 6936,
+   "projects": 12,
+   "rows": 17,
+   "zh": "正常"
+  },
+  {
+   "disease": "DW",
+   "samples": 2580,
+   "projects": 7,
+   "rows": 7,
+   "zh": "糖创"
+  },
+  {
+   "disease": "AGING",
+   "samples": 2220,
+   "projects": 3,
+   "rows": 4,
+   "zh": "衰老"
+  },
+  {
+   "disease": "PSO",
+   "samples": 1821,
+   "projects": 9,
+   "rows": 12,
+   "zh": "pso"
+  },
+  {
+   "disease": "AV",
+   "samples": 1509,
+   "projects": 10,
+   "rows": 10,
+   "zh": "痤疮"
+  },
+  {
+   "disease": "TUMOR",
+   "samples": 992,
+   "projects": 3,
+   "rows": 4,
+   "zh": "癌症"
+  },
+  {
+   "disease": "Atlantic_forest_frog",
+   "samples": 819,
+   "projects": 1,
+   "rows": 1,
+   "zh": "大西洋森林蛙"
+  },
+  {
+   "disease": "SCALP",
+   "samples": 795,
+   "projects": 12,
+   "rows": 12,
+   "zh": "头皮"
+  },
+  {
+   "disease": "CW",
+   "samples": 705,
+   "projects": 6,
+   "rows": 8,
+   "zh": "创面"
+  },
+  {
+   "disease": "Tilapia",
+   "samples": 643,
+   "projects": 1,
+   "rows": 1,
+   "zh": "罗非鱼"
+  },
+  {
+   "disease": "Carp",
+   "samples": 642,
+   "projects": 1,
+   "rows": 1,
+   "zh": "鲤鱼"
+  },
+  {
+   "disease": "Pig",
+   "samples": 618,
+   "projects": 4,
+   "rows": 4,
+   "zh": "猪"
+  },
+  {
+   "disease": "Mammal",
+   "samples": 512,
+   "projects": 1,
+   "rows": 1,
+   "zh": "哺乳动物"
+  },
+  {
+   "disease": "Trout",
+   "samples": 357,
+   "projects": 1,
+   "rows": 1,
+   "zh": "鳟鱼"
+  },
+  {
+   "disease": "Dog",
+   "samples": 341,
+   "projects": 3,
+   "rows": 3,
+   "zh": "狗"
+  },
+  {
+   "disease": "Freshwater_turtle",
+   "samples": 268,
+   "projects": 1,
+   "rows": 1,
+   "zh": "淡水龟"
+  },
+  {
+   "disease": "Sheep",
+   "samples": 267,
+   "projects": 1,
+   "rows": 1,
+   "zh": "绵羊"
+  },
+  {
+   "disease": "Salamander",
+   "samples": 258,
+   "projects": 1,
+   "rows": 1,
+   "zh": "蝾螈"
+  },
+  {
+   "disease": "SCAR",
+   "samples": 233,
+   "projects": 3,
+   "rows": 3,
+   "zh": "瘢痕"
+  },
+  {
+   "disease": "Israeli_frog",
+   "samples": 232,
+   "projects": 1,
+   "rows": 1,
+   "zh": "以色列青蛙"
+  },
+  {
+   "disease": "Brazilian_frog",
+   "samples": 229,
+   "projects": 1,
+   "rows": 1,
+   "zh": "巴西青蛙"
+  },
+  {
+   "disease": "BURN",
+   "samples": 229,
+   "projects": 3,
+   "rows": 4,
+   "zh": "烧伤"
+  },
+  {
+   "disease": "Cat",
+   "samples": 198,
+   "projects": 1,
+   "rows": 1,
+   "zh": "猫"
+  },
+  {
+   "disease": "Marine_mammals",
+   "samples": 192,
+   "projects": 1,
+   "rows": 3,
+   "zh": "海洋哺乳动物"
+  },
+  {
+   "disease": "Dolphin",
+   "samples": 184,
+   "projects": 1,
+   "rows": 1,
+   "zh": "海豚"
+  },
+  {
+   "disease": "Bank_vole",
+   "samples": 157,
+   "projects": 1,
+   "rows": 1,
+   "zh": "银行田鼠"
+  },
+  {
+   "disease": "Passerine_birds",
+   "samples": 143,
+   "projects": 1,
+   "rows": 1,
+   "zh": "雀形目鸟类"
+  },
+  {
+   "disease": "Storm_petrel",
+   "samples": 119,
+   "projects": 1,
+   "rows": 1,
+   "zh": "海燕"
+  },
+  {
+   "disease": "Beluga_whale",
+   "samples": 119,
+   "projects": 1,
+   "rows": 1,
+   "zh": "白鲸"
+  },
+  {
+   "disease": "AR",
+   "samples": 118,
+   "projects": 1,
+   "rows": 2,
+   "zh": "玫瑰痤疮（酒渣鼻）用药米诺环素"
+  },
+  {
+   "disease": "Cow",
+   "samples": 114,
+   "projects": 1,
+   "rows": 1,
+   "zh": "奶牛"
+  },
+  {
+   "disease": "Rhesus_macaque",
+   "samples": 110,
+   "projects": 1,
+   "rows": 1,
+   "zh": "恒河猴"
+  },
+  {
+   "disease": "Seal",
+   "samples": 96,
+   "projects": 1,
+   "rows": 2,
+   "zh": "海豹"
+  },
+  {
+   "disease": "Striped_bass",
+   "samples": 94,
+   "projects": 1,
+   "rows": 1,
+   "zh": "条纹鲈鱼"
+  },
+  {
+   "disease": "Spotted_frog",
+   "samples": 92,
+   "projects": 1,
+   "rows": 1,
+   "zh": "斑点蛙"
+  },
+  {
+   "disease": "Bonobo",
+   "samples": 87,
+   "projects": 1,
+   "rows": 1,
+   "zh": "倭黑猩猩、黑猩猩、大猩猩、狐猴和奶牛"
+  },
+  {
+   "disease": "WS",
+   "samples": 82,
+   "projects": 1,
+   "rows": 1,
+   "zh": "慢创/创面"
+  },
+  {
+   "disease": "North_American_wood_frog",
+   "samples": 79,
+   "projects": 1,
+   "rows": 1,
+   "zh": "北美木蛙"
+  },
+  {
+   "disease": "Killer_whale",
+   "samples": 77,
+   "projects": 1,
+   "rows": 1,
+   "zh": "虎鲸"
+  },
+  {
+   "disease": "European_catfish",
+   "samples": 76,
+   "projects": 1,
+   "rows": 4,
+   "zh": "欧洲鲶鱼"
+  },
+  {
+   "disease": "Toad",
+   "samples": 66,
+   "projects": 1,
+   "rows": 1,
+   "zh": "两栖动物——蟾蜍"
+  },
+  {
+   "disease": "Atlantic_salmon",
+   "samples": 52,
+   "projects": 1,
+   "rows": 1,
+   "zh": "大西洋鲑鱼"
+  },
+  {
+   "disease": "African_clawed_frog",
+   "samples": 42,
+   "projects": 1,
+   "rows": 1,
+   "zh": "非洲爪蟾"
+  },
+  {
+   "disease": "Fish",
+   "samples": 40,
+   "projects": 1,
+   "rows": 4,
+   "zh": "鱼"
+  },
+  {
+   "disease": "Persian_cat",
+   "samples": 34,
+   "projects": 1,
+   "rows": 1,
+   "zh": "波斯猫"
+  },
+  {
+   "disease": "Octopus",
+   "samples": 25,
+   "projects": 1,
+   "rows": 1,
+   "zh": "章鱼"
+  },
+  {
+   "disease": "Horse",
+   "samples": 24,
+   "projects": 1,
+   "rows": 1,
+   "zh": "马"
+  },
+  {
+   "disease": "Shark",
+   "samples": 22,
+   "projects": 1,
+   "rows": 1,
+   "zh": "鲨鱼"
+  },
+  {
+   "disease": "Crocodile_lizard",
+   "samples": 16,
+   "projects": 1,
+   "rows": 1,
+   "zh": "鳄鱼蜥蜴"
+  },
+  {
+   "disease": "Zebrafish",
+   "samples": 10,
+   "projects": 1,
+   "rows": 1,
+   "zh": "斑马鱼"
+  },
+  {
+   "disease": "Chicken",
+   "samples": 9,
+   "projects": 1,
+   "rows": 3,
+   "zh": "鸡"
+  }
+ ],
+ "continents": [
+  {
+   "continent": "North America",
+   "samples": 27235,
+   "projects": 62,
+   "rows": 71
+  },
+  {
+   "continent": "Europe",
+   "samples": 14568,
+   "projects": 53,
+   "rows": 64
+  },
+  {
+   "continent": "Asia",
+   "samples": 11978,
+   "projects": 39,
+   "rows": 48
+  },
+  {
+   "continent": "Oceania",
+   "samples": 2187,
+   "projects": 3,
+   "rows": 4
+  },
+  {
+   "continent": "South America",
+   "samples": 1745,
+   "projects": 5,
+   "rows": 8
+  },
+  {
+   "continent": "Africa",
+   "samples": 92,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "continent": "Unknown",
+   "samples": 77,
+   "projects": 1,
+   "rows": 1
+  }
+ ],
+ "countries": [
+  {
+   "country": "USA",
+   "samples": 25129,
+   "projects": 56,
+   "rows": 64
+  },
+  {
+   "country": "China",
+   "samples": 8096,
+   "projects": 23,
+   "rows": 29
+  },
+  {
+   "country": "Netherlands",
+   "samples": 3276,
+   "projects": 5,
+   "rows": 5
+  },
+  {
+   "country": "UK",
+   "samples": 2427,
+   "projects": 8,
+   "rows": 10
+  },
+  {
+   "country": "Denmark",
+   "samples": 2367,
+   "projects": 6,
+   "rows": 7
+  },
+  {
+   "country": "Australia",
+   "samples": 2187,
+   "projects": 3,
+   "rows": 4
+  },
+  {
+   "country": "Japan",
+   "samples": 1430,
+   "projects": 4,
+   "rows": 5
+  },
+  {
+   "country": "Germany",
+   "samples": 1257,
+   "projects": 7,
+   "rows": 7
+  },
+  {
+   "country": "Canada",
+   "samples": 1174,
+   "projects": 5,
+   "rows": 5
+  },
+  {
+   "country": "Brazil",
+   "samples": 1164,
+   "projects": 4,
+   "rows": 7
+  },
+  {
+   "country": "Finland",
+   "samples": 1051,
+   "projects": 4,
+   "rows": 6
+  },
+  {
+   "country": "Belgium",
+   "samples": 966,
+   "projects": 4,
+   "rows": 5
+  },
+  {
+   "country": "Switzerland",
+   "samples": 919,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "country": "Italy",
+   "samples": 880,
+   "projects": 3,
+   "rows": 3
+  },
+  {
+   "country": "Czechia",
+   "samples": 837,
+   "projects": 3,
+   "rows": 3
+  },
+  {
+   "country": "Singapore",
+   "samples": 762,
+   "projects": 4,
+   "rows": 5
+  },
+  {
+   "country": "Malaysia",
+   "samples": 643,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "country": "Norway",
+   "samples": 600,
+   "projects": 2,
+   "rows": 3
+  },
+  {
+   "country": "Mexico",
+   "samples": 581,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "country": "Korea,South",
+   "samples": 420,
+   "projects": 4,
+   "rows": 5
+  },
+  {
+   "country": "Sweden",
+   "samples": 274,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "country": "Poland",
+   "samples": 233,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "country": "Israel",
+   "samples": 232,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "country": "India",
+   "samples": 216,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "country": "Philippines",
+   "samples": 179,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "country": "Ukraine",
+   "samples": 157,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "country": "Unknown",
+   "samples": 99,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "country": "Ghana",
+   "samples": 82,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "country": "France",
+   "samples": 76,
+   "projects": 1,
+   "rows": 4
+  },
+  {
+   "country": "Slovakia",
+   "samples": 63,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "country": "Spain",
+   "samples": 50,
+   "projects": 3,
+   "rows": 3
+  },
+  {
+   "country": "Austria",
+   "samples": 39,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "country": "South Africa",
+   "samples": 10,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "country": "Slovenia",
+   "samples": 6,
+   "projects": 1,
+   "rows": 1
+  }
+ ],
+ "provinces": [
+  {
+   "province": "Washington state",
+   "samples": 7978,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "province": "California",
+   "samples": 4715,
+   "projects": 11,
+   "rows": 13
+  },
+  {
+   "province": "Unknown",
+   "samples": 3899,
+   "projects": 19,
+   "rows": 22
+  },
+  {
+   "province": "Shanghai",
+   "samples": 3299,
+   "projects": 6,
+   "rows": 7
+  },
+  {
+   "province": "Utrecht province",
+   "samples": 2995,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "province": "Texas",
+   "samples": 2375,
+   "projects": 8,
+   "rows": 8
+  },
+  {
+   "province": "Pennsylvania",
+   "samples": 2344,
+   "projects": 4,
+   "rows": 4
+  },
+  {
+   "province": "Region Hovedstaden",
+   "samples": 1592,
+   "projects": 3,
+   "rows": 3
+  },
+  {
+   "province": "Connecticut",
+   "samples": 1569,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Guangdong",
+   "samples": 1497,
+   "projects": 4,
+   "rows": 4
+  },
+  {
+   "province": "Victoria",
+   "samples": 1348,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "New_York",
+   "samples": 1071,
+   "projects": 4,
+   "rows": 5
+  },
+  {
+   "province": "Massachusetts",
+   "samples": 876,
+   "projects": 3,
+   "rows": 3
+  },
+  {
+   "province": "Bavaria",
+   "samples": 875,
+   "projects": 3,
+   "rows": 3
+  },
+  {
+   "province": "Hebei",
+   "samples": 859,
+   "projects": 1,
+   "rows": 2
+  },
+  {
+   "province": "Beijing",
+   "samples": 848,
+   "projects": 3,
+   "rows": 3
+  },
+  {
+   "province": "Antwerp Province",
+   "samples": 819,
+   "projects": 3,
+   "rows": 4
+  },
+  {
+   "province": "Singapore",
+   "samples": 762,
+   "projects": 4,
+   "rows": 5
+  },
+  {
+   "province": "Washington",
+   "samples": 672,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "province": "Kanton Zürich",
+   "samples": 652,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Ontario",
+   "samples": 591,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "province": "Queensland",
+   "samples": 581,
+   "projects": 1,
+   "rows": 2
+  },
+  {
+   "province": "Distrito Federal",
+   "samples": 581,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Lombardy",
+   "samples": 579,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "lowa",
+   "samples": 579,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "province": "Hlavní město Praha",
+   "samples": 522,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Hyogo Prefecture",
+   "samples": 494,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Hong Kong",
+   "samples": 481,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Michigan",
+   "samples": 462,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "province": "England",
+   "samples": 428,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Wales",
+   "samples": 428,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Central Denmark Region",
+   "samples": 417,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Jiangsu",
+   "samples": 399,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "province": "Southern Finland",
+   "samples": 390,
+   "projects": 1,
+   "rows": 2
+  },
+  {
+   "province": "Chiba",
+   "samples": 362,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Fukushima",
+   "samples": 362,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Copenhagen",
+   "samples": 358,
+   "projects": 2,
+   "rows": 3
+  },
+  {
+   "province": "Ottawa",
+   "samples": 345,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Colorado",
+   "samples": 342,
+   "projects": 2,
+   "rows": 3
+  },
+  {
+   "province": "Florida",
+   "samples": 322,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Hunan",
+   "samples": 304,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "province": "Provincia autonoma di Trento",
+   "samples": 301,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "province": "Uusimaa",
+   "samples": 286,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Gelderland",
+   "samples": 281,
+   "projects": 3,
+   "rows": 3
+  },
+  {
+   "province": "Maryland",
+   "samples": 280,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "province": "Oslo",
+   "samples": 274,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Ostfold",
+   "samples": 274,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Stockholm County",
+   "samples": 274,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Schleswig-Holstein",
+   "samples": 262,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "province": "New South Wales",
+   "samples": 258,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "São Paulo",
+   "samples": 239,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "province": "Minnesota",
+   "samples": 237,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Nottinghamshire",
+   "samples": 237,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Israel",
+   "samples": 232,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "West Bengal",
+   "samples": 216,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Kuyavian-Pomeranian Voivodeship",
+   "samples": 209,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Quebec",
+   "samples": 202,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "province": "North Karelia",
+   "samples": 195,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Alabama",
+   "samples": 184,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Manila",
+   "samples": 179,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Jeollanam-do",
+   "samples": 176,
+   "projects": 1,
+   "rows": 2
+  },
+  {
+   "province": "Central Bohemian Region",
+   "samples": 172,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Hubei",
+   "samples": 166,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Kyiv",
+   "samples": 157,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "East Flanders",
+   "samples": 147,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Prague",
+   "samples": 143,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Aichi",
+   "samples": 138,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Pohjois - Pohjanmaan maakunta",
+   "samples": 133,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Shaanxi",
+   "samples": 130,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "New Brunswick",
+   "samples": 119,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Merseyside",
+   "samples": 114,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Puerto Rico",
+   "samples": 110,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Gangwon-do",
+   "samples": 94,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Idaho",
+   "samples": 92,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Virginia",
+   "samples": 86,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "North Chungcheong",
+   "samples": 84,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Ashanti Region",
+   "samples": 82,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Haute-Garonne",
+   "samples": 76,
+   "projects": 1,
+   "rows": 4
+  },
+  {
+   "province": "Minas Gerais",
+   "samples": 76,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Yamagata",
+   "samples": 74,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Hawaii",
+   "samples": 64,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Alaska",
+   "samples": 64,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Ohio",
+   "samples": 58,
+   "projects": 1,
+   "rows": 2
+  },
+  {
+   "province": "Taiwan Province of China",
+   "samples": 52,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Helsinki",
+   "samples": 47,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Styria",
+   "samples": 39,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Ningxia Hui Autonomous Region",
+   "samples": 36,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Canary Islands",
+   "samples": 26,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "province": "Małopolskie",
+   "samples": 24,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Comunidad de Madrid",
+   "samples": 24,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Guangxi",
+   "samples": 16,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Wisconsin",
+   "samples": 16,
+   "projects": 1,
+   "rows": 2
+  },
+  {
+   "province": "Free State",
+   "samples": 10,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Espírito Santo",
+   "samples": 10,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Santa Catarina",
+   "samples": 10,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Rio de Janeiro",
+   "samples": 10,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "North Rhine-Westphalia",
+   "samples": 9,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "province": "Lower Styria",
+   "samples": 6,
+   "projects": 1,
+   "rows": 1
+  }
+ ],
+ "cities": [
+  {
+   "city": "Washington",
+   "samples": 8650,
+   "projects": 4,
+   "rows": 4
+  },
+  {
+   "city": "Shanghai",
+   "samples": 3299,
+   "projects": 6,
+   "rows": 7
+  },
+  {
+   "city": "Utrecht",
+   "samples": 2995,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "city": "San_Diego",
+   "samples": 2613,
+   "projects": 5,
+   "rows": 5
+  },
+  {
+   "city": "Philadelphia",
+   "samples": 2288,
+   "projects": 3,
+   "rows": 3
+  },
+  {
+   "city": "Copenhagen",
+   "samples": 1950,
+   "projects": 5,
+   "rows": 6
+  },
+  {
+   "city": "Farmington",
+   "samples": 1941,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "city": "Houston",
+   "samples": 1841,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "city": "Guangzhou",
+   "samples": 1500,
+   "projects": 5,
+   "rows": 5
+  },
+  {
+   "city": "Melbourne",
+   "samples": 1348,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Riverside",
+   "samples": 1079,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "New_York",
+   "samples": 1071,
+   "projects": 4,
+   "rows": 5
+  },
+  {
+   "city": "Unknown",
+   "samples": 1037,
+   "projects": 3,
+   "rows": 3
+  },
+  {
+   "city": "Baoding",
+   "samples": 859,
+   "projects": 1,
+   "rows": 2
+  },
+  {
+   "city": "Beijing",
+   "samples": 848,
+   "projects": 3,
+   "rows": 3
+  },
+  {
+   "city": "Antwerp",
+   "samples": 819,
+   "projects": 3,
+   "rows": 4
+  },
+  {
+   "city": "Brazil: Bahia, Mata de Sao Joao",
+   "samples": 819,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Boston",
+   "samples": 812,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "city": "Munich",
+   "samples": 795,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "city": "Cardiff",
+   "samples": 785,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "city": "Singapore",
+   "samples": 762,
+   "projects": 4,
+   "rows": 5
+  },
+  {
+   "city": "Prague",
+   "samples": 665,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "city": "Zurich",
+   "samples": 652,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "George_Town",
+   "samples": 643,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Mexico",
+   "samples": 581,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Brisbane",
+   "samples": 581,
+   "projects": 1,
+   "rows": 2
+  },
+  {
+   "city": "Brescia",
+   "samples": 579,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Iowa_City",
+   "samples": 579,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "city": "Helsinki",
+   "samples": 528,
+   "projects": 3,
+   "rows": 3
+  },
+  {
+   "city": "Ontario",
+   "samples": 512,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Kobe",
+   "samples": 494,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Hong_Kong",
+   "samples": 484,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "city": "London",
+   "samples": 428,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Aarhus",
+   "samples": 417,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "San_Francisco",
+   "samples": 407,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "city": "Joensuu",
+   "samples": 390,
+   "projects": 1,
+   "rows": 2
+  },
+  {
+   "city": "Fukushima",
+   "samples": 362,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Chiba",
+   "samples": 362,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Ottawa",
+   "samples": 345,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Denver",
+   "samples": 333,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "city": "Gainesville",
+   "samples": 322,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Changsha",
+   "samples": 304,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "city": "Trento",
+   "samples": 301,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "city": "Nanjing",
+   "samples": 279,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Stockholm",
+   "samples": 274,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Oslo",
+   "samples": 274,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Sarpsborg",
+   "samples": 274,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "plateau",
+   "samples": 267,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Lübeck",
+   "samples": 262,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "city": "Frederick",
+   "samples": 258,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Sydney",
+   "samples": 258,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Minneapolis",
+   "samples": 237,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Nottingham",
+   "samples": 237,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Texas",
+   "samples": 232,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "city": "Galilee_Region",
+   "samples": 232,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Parque Estadual da Serra do Mar",
+   "samples": 229,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Kalyani",
+   "samples": 216,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Bydgoszcz",
+   "samples": 209,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Carolina",
+   "samples": 208,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "city": "Nijmegen",
+   "samples": 194,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "city": "Davis",
+   "samples": 186,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Gulf_Shores",
+   "samples": 184,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Manila",
+   "samples": 179,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Gwangju",
+   "samples": 176,
+   "projects": 1,
+   "rows": 2
+  },
+  {
+   "city": "Libechov",
+   "samples": 172,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Wuhan",
+   "samples": 166,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "College_Station",
+   "samples": 164,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Kyiv",
+   "samples": 157,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Los_Angeles",
+   "samples": 149,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Gent",
+   "samples": 147,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "San_Jose",
+   "samples": 139,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Oakland",
+   "samples": 139,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Toyoake",
+   "samples": 138,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Oulu",
+   "samples": 133,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Xi'an",
+   "samples": 130,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Wuxi",
+   "samples": 120,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Quebec_City",
+   "samples": 119,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Bon_Portage_Island；near_Fredericton",
+   "samples": 119,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Liverpool",
+   "samples": 114,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Berlin",
+   "samples": 111,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Cayo_Santiago_Island",
+   "samples": 110,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "P'yongch'ang",
+   "samples": 94,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Coeur_d'Alene、Lewiston、Moscow、Post_Falls、Hayden、Sandpoint、",
+   "samples": 92,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Ann_Arbor",
+   "samples": 90,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Apenheul",
+   "samples": 87,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Virginia",
+   "samples": 86,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Cheongju",
+   "samples": 84,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Hull",
+   "samples": 83,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Kumasi",
+   "samples": 82,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Coburg",
+   "samples": 80,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Waterloo、Kitchener、Cambridge",
+   "samples": 79,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Belo_Horizonte",
+   "samples": 76,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Tsuruoka",
+   "samples": 74,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Seoul",
+   "samples": 66,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Alaska",
+   "samples": 64,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Cape_Cod",
+   "samples": 64,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Hawaii",
+   "samples": 64,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Kosice",
+   "samples": 63,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "California",
+   "samples": 60,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Hershey",
+   "samples": 56,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Taipei",
+   "samples": 52,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Sunndalsoera",
+   "samples": 52,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Dallas",
+   "samples": 48,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "South Georgia",
+   "samples": 48,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "the South Sandwich Islands",
+   "samples": 48,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "San_Antonio",
+   "samples": 45,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "New_Braunfels",
+   "samples": 45,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Portsmouth",
+   "samples": 42,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Graz",
+   "samples": 39,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Yinchuan",
+   "samples": 36,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Ada",
+   "samples": 29,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Cleveland",
+   "samples": 29,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Las Palmas",
+   "samples": 26,
+   "projects": 2,
+   "rows": 2
+  },
+  {
+   "city": "Maywood",
+   "samples": 25,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Florida",
+   "samples": 25,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Kraków",
+   "samples": 24,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Madrid",
+   "samples": 24,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Mar_Ionio",
+   "samples": 22,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Baltimore",
+   "samples": 22,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Golfech",
+   "samples": 19,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Noe",
+   "samples": 19,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Toulouse",
+   "samples": 19,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Mauzac",
+   "samples": 19,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Hezhou",
+   "samples": 16,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Picinguaba",
+   "samples": 10,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Bloemfontein",
+   "samples": 10,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Guaratiba",
+   "samples": 10,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "São_Francisco_do_Sul",
+   "samples": 10,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Fundão",
+   "samples": 10,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Aurora",
+   "samples": 9,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Munster",
+   "samples": 9,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Milwaukee",
+   "samples": 8,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Madison",
+   "samples": 8,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Maribor",
+   "samples": 6,
+   "projects": 1,
+   "rows": 1
+  },
+  {
+   "city": "Dajiang",
+   "samples": 3,
+   "projects": 1,
+   "rows": 1
+  }
+ ],
+ "tree": [
+  {
+   "name": "North America",
+   "samples": 27235,
+   "projects": 62,
+   "children": [
+    {
+     "name": "USA",
+     "samples": 25129,
+     "projects": 56,
+     "children": [
+      {
+       "name": "Washington state",
+       "samples": 7978,
+       "projects": 2,
+       "children": [
+        {
+         "name": "Washington",
+         "samples": 7978,
+         "projects": 2,
+         "diseases": [
+          "AD"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "California",
+       "samples": 4715,
+       "projects": 11,
+       "children": [
+        {
+         "name": "San_Diego",
+         "samples": 2531,
+         "projects": 4,
+         "diseases": [
+          "AD",
+          "MI"
+         ]
+        },
+        {
+         "name": "Riverside",
+         "samples": 1079,
+         "projects": 1,
+         "diseases": [
+          "DW"
+         ]
+        },
+        {
+         "name": "San_Francisco",
+         "samples": 407,
+         "projects": 2,
+         "diseases": [
+          "Freshwater_turtle",
+          "PSO"
+         ]
+        },
+        {
+         "name": "Davis",
+         "samples": 186,
+         "projects": 1,
+         "diseases": [
+          "BURN"
+         ]
+        },
+        {
+         "name": "Los_Angeles",
+         "samples": 149,
+         "projects": 1,
+         "diseases": [
+          "AV"
+         ]
+        },
+        {
+         "name": "San_Jose",
+         "samples": 139,
+         "projects": 1,
+         "diseases": [
+          "PSO"
+         ]
+        },
+        {
+         "name": "Oakland",
+         "samples": 139,
+         "projects": 1,
+         "diseases": [
+          "PSO"
+         ]
+        },
+        {
+         "name": "California",
+         "samples": 60,
+         "projects": 1,
+         "diseases": [
+          "CW"
+         ]
+        },
+        {
+         "name": "Maywood",
+         "samples": 25,
+         "projects": 1,
+         "diseases": [
+          "BURN"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Texas",
+       "samples": 2375,
+       "projects": 8,
+       "children": [
+        {
+         "name": "Houston",
+         "samples": 1841,
+         "projects": 2,
+         "diseases": [
+          "MI"
+         ]
+        },
+        {
+         "name": "Texas",
+         "samples": 232,
+         "projects": 2,
+         "diseases": [
+          "Cat",
+          "Persian_cat"
+         ]
+        },
+        {
+         "name": "College_Station",
+         "samples": 164,
+         "projects": 1,
+         "diseases": [
+          "Dog"
+         ]
+        },
+        {
+         "name": "Dallas",
+         "samples": 48,
+         "projects": 1,
+         "diseases": [
+          "SCALP"
+         ]
+        },
+        {
+         "name": "New_Braunfels",
+         "samples": 45,
+         "projects": 1,
+         "diseases": [
+          "DW"
+         ]
+        },
+        {
+         "name": "San_Antonio",
+         "samples": 45,
+         "projects": 1,
+         "diseases": [
+          "Pig"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Pennsylvania",
+       "samples": 2344,
+       "projects": 4,
+       "children": [
+        {
+         "name": "Philadelphia",
+         "samples": 2288,
+         "projects": 3,
+         "diseases": [
+          "AD",
+          "DW",
+          "NORMAL"
+         ]
+        },
+        {
+         "name": "Hershey",
+         "samples": 56,
+         "projects": 1,
+         "diseases": [
+          "AV"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Connecticut",
+       "samples": 1569,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Farmington",
+         "samples": 1569,
+         "projects": 1,
+         "diseases": [
+          "AGING"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "New_York",
+       "samples": 1071,
+       "projects": 4,
+       "children": [
+        {
+         "name": "New_York",
+         "samples": 1071,
+         "projects": 4,
+         "diseases": [
+          "AD",
+          "NORMAL",
+          "PSO",
+          "SCALP"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Massachusetts",
+       "samples": 876,
+       "projects": 3,
+       "children": [
+        {
+         "name": "Boston",
+         "samples": 812,
+         "projects": 2,
+         "diseases": [
+          "AGING",
+          "CW"
+         ]
+        },
+        {
+         "name": "Cape_Cod",
+         "samples": 64,
+         "projects": 1,
+         "diseases": [
+          "Marine_mammals"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Washington",
+       "samples": 672,
+       "projects": 2,
+       "children": [
+        {
+         "name": "Washington",
+         "samples": 672,
+         "projects": 2,
+         "diseases": [
+          "AD",
+          "MI"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Unknown",
+       "samples": 633,
+       "projects": 5,
+       "children": [
+        {
+         "name": "Unknown",
+         "samples": 318,
+         "projects": 1,
+         "diseases": [
+          "Pig"
+         ]
+        },
+        {
+         "name": "Carolina",
+         "samples": 208,
+         "projects": 2,
+         "diseases": [
+          "Dog",
+          "Striped_bass"
+         ]
+        },
+        {
+         "name": "San_Diego",
+         "samples": 82,
+         "projects": 1,
+         "diseases": [
+          "CW"
+         ]
+        },
+        {
+         "name": "Florida",
+         "samples": 25,
+         "projects": 1,
+         "diseases": [
+          "Octopus"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "lowa",
+       "samples": 579,
+       "projects": 2,
+       "children": [
+        {
+         "name": "Iowa_City",
+         "samples": 579,
+         "projects": 2,
+         "diseases": [
+          "DW"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Michigan",
+       "samples": 462,
+       "projects": 2,
+       "children": [
+        {
+         "name": "Farmington",
+         "samples": 372,
+         "projects": 1,
+         "diseases": [
+          "TUMOR"
+         ]
+        },
+        {
+         "name": "Ann_Arbor",
+         "samples": 90,
+         "projects": 1,
+         "diseases": [
+          "SCALP"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Colorado",
+       "samples": 342,
+       "projects": 2,
+       "children": [
+        {
+         "name": "Denver",
+         "samples": 333,
+         "projects": 2,
+         "diseases": [
+          "AD",
+          "BURN"
+         ]
+        },
+        {
+         "name": "Aurora",
+         "samples": 9,
+         "projects": 1,
+         "diseases": [
+          "BURN"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Florida",
+       "samples": 322,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Gainesville",
+         "samples": 322,
+         "projects": 1,
+         "diseases": [
+          "MI"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Maryland",
+       "samples": 280,
+       "projects": 2,
+       "children": [
+        {
+         "name": "Frederick",
+         "samples": 258,
+         "projects": 1,
+         "diseases": [
+          "Salamander"
+         ]
+        },
+        {
+         "name": "Baltimore",
+         "samples": 22,
+         "projects": 1,
+         "diseases": [
+          "CW"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Minnesota",
+       "samples": 237,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Minneapolis",
+         "samples": 237,
+         "projects": 1,
+         "diseases": [
+          "SCALP"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Alabama",
+       "samples": 184,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Gulf_Shores",
+         "samples": 184,
+         "projects": 1,
+         "diseases": [
+          "Dolphin"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Puerto Rico",
+       "samples": 110,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Cayo_Santiago_Island",
+         "samples": 110,
+         "projects": 1,
+         "diseases": [
+          "Rhesus_macaque"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Idaho",
+       "samples": 92,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Coeur_d'Alene、Lewiston、Moscow、Post_Falls、Hayden、Sandpoint、",
+         "samples": 92,
+         "projects": 1,
+         "diseases": [
+          "Spotted_frog"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Virginia",
+       "samples": 86,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Virginia",
+         "samples": 86,
+         "projects": 1,
+         "diseases": [
+          "AD"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Alaska",
+       "samples": 64,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Alaska",
+         "samples": 64,
+         "projects": 1,
+         "diseases": [
+          "Marine_mammals"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Hawaii",
+       "samples": 64,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Hawaii",
+         "samples": 64,
+         "projects": 1,
+         "diseases": [
+          "Marine_mammals"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Ohio",
+       "samples": 58,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Ada",
+         "samples": 29,
+         "projects": 1,
+         "diseases": [
+          "NORMAL"
+         ]
+        },
+        {
+         "name": "Cleveland",
+         "samples": 29,
+         "projects": 1,
+         "diseases": [
+          "NORMAL"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Wisconsin",
+       "samples": 16,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Milwaukee",
+         "samples": 8,
+         "projects": 1,
+         "diseases": [
+          "CW"
+         ]
+        },
+        {
+         "name": "Madison",
+         "samples": 8,
+         "projects": 1,
+         "diseases": [
+          "CW"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Canada",
+     "samples": 1174,
+     "projects": 5,
+     "children": [
+      {
+       "name": "Ontario",
+       "samples": 591,
+       "projects": 2,
+       "children": [
+        {
+         "name": "Ontario",
+         "samples": 512,
+         "projects": 1,
+         "diseases": [
+          "Mammal"
+         ]
+        },
+        {
+         "name": "Waterloo、Kitchener、Cambridge",
+         "samples": 79,
+         "projects": 1,
+         "diseases": [
+          "North_American_wood_frog"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Ottawa",
+       "samples": 345,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Ottawa",
+         "samples": 345,
+         "projects": 1,
+         "diseases": [
+          "AD"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Quebec",
+       "samples": 119,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Quebec_City",
+         "samples": 119,
+         "projects": 1,
+         "diseases": [
+          "Beluga_whale"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "New Brunswick",
+       "samples": 119,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Bon_Portage_Island；near_Fredericton",
+         "samples": 119,
+         "projects": 1,
+         "diseases": [
+          "Storm_petrel"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Switzerland",
+     "samples": 652,
+     "projects": 1,
+     "children": [
+      {
+       "name": "Kanton Zürich",
+       "samples": 652,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Zurich",
+         "samples": 652,
+         "projects": 1,
+         "diseases": [
+          "AD"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Denmark",
+     "samples": 280,
+     "projects": 1,
+     "children": [
+      {
+       "name": "Region Hovedstaden",
+       "samples": 280,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Copenhagen",
+         "samples": 280,
+         "projects": 1,
+         "diseases": [
+          "AD"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Europe",
+   "samples": 14568,
+   "projects": 53,
+   "children": [
+    {
+     "name": "Netherlands",
+     "samples": 3276,
+     "projects": 5,
+     "children": [
+      {
+       "name": "Utrecht province",
+       "samples": 2995,
+       "projects": 2,
+       "children": [
+        {
+         "name": "Utrecht",
+         "samples": 2995,
+         "projects": 2,
+         "diseases": [
+          "MI"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Gelderland",
+       "samples": 281,
+       "projects": 3,
+       "children": [
+        {
+         "name": "Nijmegen",
+         "samples": 194,
+         "projects": 2,
+         "diseases": [
+          "AD",
+          "PSO"
+         ]
+        },
+        {
+         "name": "Apenheul",
+         "samples": 87,
+         "projects": 1,
+         "diseases": [
+          "Bonobo"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "UK",
+     "samples": 2427,
+     "projects": 8,
+     "children": [
+      {
+       "name": "Unknown",
+       "samples": 1137,
+       "projects": 4,
+       "children": [
+        {
+         "name": "Unknown",
+         "samples": 642,
+         "projects": 1,
+         "diseases": [
+          "Carp"
+         ]
+        },
+        {
+         "name": "Cardiff",
+         "samples": 357,
+         "projects": 1,
+         "diseases": [
+          "Trout"
+         ]
+        },
+        {
+         "name": "South Georgia",
+         "samples": 48,
+         "projects": 1,
+         "diseases": [
+          "Seal"
+         ]
+        },
+        {
+         "name": "the South Sandwich Islands",
+         "samples": 48,
+         "projects": 1,
+         "diseases": [
+          "Seal"
+         ]
+        },
+        {
+         "name": "Portsmouth",
+         "samples": 42,
+         "projects": 1,
+         "diseases": [
+          "African_clawed_frog"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "England",
+       "samples": 428,
+       "projects": 1,
+       "children": [
+        {
+         "name": "London",
+         "samples": 428,
+         "projects": 1,
+         "diseases": [
+          "MI"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Wales",
+       "samples": 428,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Cardiff",
+         "samples": 428,
+         "projects": 1,
+         "diseases": [
+          "MI"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Nottinghamshire",
+       "samples": 237,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Nottingham",
+         "samples": 237,
+         "projects": 1,
+         "diseases": [
+          "DW"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Merseyside",
+       "samples": 114,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Liverpool",
+         "samples": 114,
+         "projects": 1,
+         "diseases": [
+          "Cow"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Quebec",
+       "samples": 83,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Hull",
+         "samples": 83,
+         "projects": 1,
+         "diseases": [
+          "Pig"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Denmark",
+     "samples": 2087,
+     "projects": 5,
+     "children": [
+      {
+       "name": "Region Hovedstaden",
+       "samples": 1312,
+       "projects": 2,
+       "children": [
+        {
+         "name": "Copenhagen",
+         "samples": 1312,
+         "projects": 2,
+         "diseases": [
+          "AD"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Central Denmark Region",
+       "samples": 417,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Aarhus",
+         "samples": 417,
+         "projects": 1,
+         "diseases": [
+          "AV"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Copenhagen",
+       "samples": 358,
+       "projects": 2,
+       "children": [
+        {
+         "name": "Copenhagen",
+         "samples": 358,
+         "projects": 2,
+         "diseases": [
+          "CW",
+          "NORMAL"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Germany",
+     "samples": 1257,
+     "projects": 7,
+     "children": [
+      {
+       "name": "Bavaria",
+       "samples": 875,
+       "projects": 3,
+       "children": [
+        {
+         "name": "Munich",
+         "samples": 795,
+         "projects": 2,
+         "diseases": [
+          "AD"
+         ]
+        },
+        {
+         "name": "Coburg",
+         "samples": 80,
+         "projects": 1,
+         "diseases": [
+          "AD"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Schleswig-Holstein",
+       "samples": 262,
+       "projects": 2,
+       "children": [
+        {
+         "name": "Lübeck",
+         "samples": 262,
+         "projects": 2,
+         "diseases": [
+          "PSO",
+          "SCAR"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Unknown",
+       "samples": 111,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Berlin",
+         "samples": 111,
+         "projects": 1,
+         "diseases": [
+          "AV"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "North Rhine-Westphalia",
+       "samples": 9,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Munster",
+         "samples": 9,
+         "projects": 1,
+         "diseases": [
+          "SCALP"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Finland",
+     "samples": 1051,
+     "projects": 4,
+     "children": [
+      {
+       "name": "Southern Finland",
+       "samples": 390,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Helsinki",
+         "samples": 195,
+         "projects": 1,
+         "diseases": [
+          "MI"
+         ]
+        },
+        {
+         "name": "Joensuu",
+         "samples": 195,
+         "projects": 1,
+         "diseases": [
+          "MI"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Uusimaa",
+       "samples": 286,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Helsinki",
+         "samples": 286,
+         "projects": 1,
+         "diseases": [
+          "MI"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "North Karelia",
+       "samples": 195,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Joensuu",
+         "samples": 195,
+         "projects": 1,
+         "diseases": [
+          "MI"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Pohjois - Pohjanmaan maakunta",
+       "samples": 133,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Oulu",
+         "samples": 133,
+         "projects": 1,
+         "diseases": [
+          "AV"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Helsinki",
+       "samples": 47,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Helsinki",
+         "samples": 47,
+         "projects": 1,
+         "diseases": [
+          "MI"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Belgium",
+     "samples": 966,
+     "projects": 4,
+     "children": [
+      {
+       "name": "Antwerp Province",
+       "samples": 819,
+       "projects": 3,
+       "children": [
+        {
+         "name": "Antwerp",
+         "samples": 819,
+         "projects": 3,
+         "diseases": [
+          "AD",
+          "AV",
+          "NORMAL"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "East Flanders",
+       "samples": 147,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Gent",
+         "samples": 147,
+         "projects": 1,
+         "diseases": [
+          "SCALP"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Italy",
+     "samples": 880,
+     "projects": 3,
+     "children": [
+      {
+       "name": "Lombardy",
+       "samples": 579,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Brescia",
+         "samples": 579,
+         "projects": 1,
+         "diseases": [
+          "AD"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Provincia autonoma di Trento",
+       "samples": 301,
+       "projects": 2,
+       "children": [
+        {
+         "name": "Trento",
+         "samples": 301,
+         "projects": 2,
+         "diseases": [
+          "MI",
+          "PSO"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Czechia",
+     "samples": 837,
+     "projects": 3,
+     "children": [
+      {
+       "name": "Hlavní město Praha",
+       "samples": 522,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Prague",
+         "samples": 522,
+         "projects": 1,
+         "diseases": [
+          "PSO"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Central Bohemian Region",
+       "samples": 172,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Libechov",
+         "samples": 172,
+         "projects": 1,
+         "diseases": [
+          "Pig"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Prague",
+       "samples": 143,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Prague",
+         "samples": 143,
+         "projects": 1,
+         "diseases": [
+          "Passerine_birds"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Norway",
+     "samples": 600,
+     "projects": 2,
+     "children": [
+      {
+       "name": "Oslo",
+       "samples": 274,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Oslo",
+         "samples": 274,
+         "projects": 1,
+         "diseases": [
+          "MI"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Ostfold",
+       "samples": 274,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Sarpsborg",
+         "samples": 274,
+         "projects": 1,
+         "diseases": [
+          "MI"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Unknown",
+       "samples": 52,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Sunndalsoera",
+         "samples": 52,
+         "projects": 1,
+         "diseases": [
+          "Atlantic_salmon"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Sweden",
+     "samples": 274,
+     "projects": 1,
+     "children": [
+      {
+       "name": "Stockholm County",
+       "samples": 274,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Stockholm",
+         "samples": 274,
+         "projects": 1,
+         "diseases": [
+          "MI"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Switzerland",
+     "samples": 267,
+     "projects": 1,
+     "children": [
+      {
+       "name": "Unknown",
+       "samples": 267,
+       "projects": 1,
+       "children": [
+        {
+         "name": "plateau",
+         "samples": 267,
+         "projects": 1,
+         "diseases": [
+          "Sheep"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Poland",
+     "samples": 233,
+     "projects": 2,
+     "children": [
+      {
+       "name": "Kuyavian-Pomeranian Voivodeship",
+       "samples": 209,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Bydgoszcz",
+         "samples": 209,
+         "projects": 1,
+         "diseases": [
+          "AD"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Małopolskie",
+       "samples": 24,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Kraków",
+         "samples": 24,
+         "projects": 1,
+         "diseases": [
+          "Horse"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Ukraine",
+     "samples": 157,
+     "projects": 1,
+     "children": [
+      {
+       "name": "Kyiv",
+       "samples": 157,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Kyiv",
+         "samples": 157,
+         "projects": 1,
+         "diseases": [
+          "Bank_vole"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "France",
+     "samples": 76,
+     "projects": 1,
+     "children": [
+      {
+       "name": "Haute-Garonne",
+       "samples": 76,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Golfech",
+         "samples": 19,
+         "projects": 1,
+         "diseases": [
+          "European_catfish"
+         ]
+        },
+        {
+         "name": "Mauzac",
+         "samples": 19,
+         "projects": 1,
+         "diseases": [
+          "European_catfish"
+         ]
+        },
+        {
+         "name": "Noe",
+         "samples": 19,
+         "projects": 1,
+         "diseases": [
+          "European_catfish"
+         ]
+        },
+        {
+         "name": "Toulouse",
+         "samples": 19,
+         "projects": 1,
+         "diseases": [
+          "European_catfish"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Slovakia",
+     "samples": 63,
+     "projects": 1,
+     "children": [
+      {
+       "name": "Unknown",
+       "samples": 63,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Kosice",
+         "samples": 63,
+         "projects": 1,
+         "diseases": [
+          "Dog"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Spain",
+     "samples": 50,
+     "projects": 3,
+     "children": [
+      {
+       "name": "Canary Islands",
+       "samples": 26,
+       "projects": 2,
+       "children": [
+        {
+         "name": "Las Palmas",
+         "samples": 26,
+         "projects": 2,
+         "diseases": [
+          "SCALP"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Comunidad de Madrid",
+       "samples": 24,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Madrid",
+         "samples": 24,
+         "projects": 1,
+         "diseases": [
+          "SCALP"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Austria",
+     "samples": 39,
+     "projects": 1,
+     "children": [
+      {
+       "name": "Styria",
+       "samples": 39,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Graz",
+         "samples": 39,
+         "projects": 1,
+         "diseases": [
+          "TUMOR"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unknown",
+     "samples": 22,
+     "projects": 1,
+     "children": [
+      {
+       "name": "Unknown",
+       "samples": 22,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Mar_Ionio",
+         "samples": 22,
+         "projects": 1,
+         "diseases": [
+          "Shark"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Slovenia",
+     "samples": 6,
+     "projects": 1,
+     "children": [
+      {
+       "name": "Lower Styria",
+       "samples": 6,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Maribor",
+         "samples": 6,
+         "projects": 1,
+         "diseases": [
+          "SCALP"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Asia",
+   "samples": 11978,
+   "projects": 39,
+   "children": [
+    {
+     "name": "China",
+     "samples": 8096,
+     "projects": 23,
+     "children": [
+      {
+       "name": "Shanghai",
+       "samples": 3299,
+       "projects": 6,
+       "children": [
+        {
+         "name": "Shanghai",
+         "samples": 3299,
+         "projects": 6,
+         "diseases": [
+          "AR",
+          "MI",
+          "NORMAL",
+          "SCAR"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Guangdong",
+       "samples": 1497,
+       "projects": 4,
+       "children": [
+        {
+         "name": "Guangzhou",
+         "samples": 1497,
+         "projects": 4,
+         "diseases": [
+          "AD",
+          "MI",
+          "NORMAL"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Hebei",
+       "samples": 859,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Baoding",
+         "samples": 859,
+         "projects": 1,
+         "diseases": [
+          "NORMAL"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Beijing",
+       "samples": 848,
+       "projects": 3,
+       "children": [
+        {
+         "name": "Beijing",
+         "samples": 848,
+         "projects": 3,
+         "diseases": [
+          "AD",
+          "MI",
+          "NORMAL"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Hong Kong",
+       "samples": 481,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Hong_Kong",
+         "samples": 481,
+         "projects": 1,
+         "diseases": [
+          "NORMAL"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Jiangsu",
+       "samples": 399,
+       "projects": 2,
+       "children": [
+        {
+         "name": "Nanjing",
+         "samples": 279,
+         "projects": 1,
+         "diseases": [
+          "AD"
+         ]
+        },
+        {
+         "name": "Wuxi",
+         "samples": 120,
+         "projects": 1,
+         "diseases": [
+          "AV"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Hunan",
+       "samples": 304,
+       "projects": 2,
+       "children": [
+        {
+         "name": "Changsha",
+         "samples": 304,
+         "projects": 2,
+         "diseases": [
+          "AV",
+          "PSO"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Hubei",
+       "samples": 166,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Wuhan",
+         "samples": 166,
+         "projects": 1,
+         "diseases": [
+          "NORMAL"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Shaanxi",
+       "samples": 130,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Xi'an",
+         "samples": 130,
+         "projects": 1,
+         "diseases": [
+          "SCAR"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Taiwan Province of China",
+       "samples": 52,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Taipei",
+         "samples": 52,
+         "projects": 1,
+         "diseases": [
+          "PSO"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Ningxia Hui Autonomous Region",
+       "samples": 36,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Yinchuan",
+         "samples": 36,
+         "projects": 1,
+         "diseases": [
+          "PSO"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Guangxi",
+       "samples": 16,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Hezhou",
+         "samples": 16,
+         "projects": 1,
+         "diseases": [
+          "Crocodile_lizard"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Unknown",
+       "samples": 9,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Dajiang",
+         "samples": 3,
+         "projects": 1,
+         "diseases": [
+          "Chicken"
+         ]
+        },
+        {
+         "name": "Guangzhou",
+         "samples": 3,
+         "projects": 1,
+         "diseases": [
+          "Chicken"
+         ]
+        },
+        {
+         "name": "Hong_Kong",
+         "samples": 3,
+         "projects": 1,
+         "diseases": [
+          "Chicken"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Japan",
+     "samples": 1430,
+     "projects": 4,
+     "children": [
+      {
+       "name": "Hyogo Prefecture",
+       "samples": 494,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Kobe",
+         "samples": 494,
+         "projects": 1,
+         "diseases": [
+          "AD"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Fukushima",
+       "samples": 362,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Fukushima",
+         "samples": 362,
+         "projects": 1,
+         "diseases": [
+          "MI"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Chiba",
+       "samples": 362,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Chiba",
+         "samples": 362,
+         "projects": 1,
+         "diseases": [
+          "MI"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Aichi",
+       "samples": 138,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Toyoake",
+         "samples": 138,
+         "projects": 1,
+         "diseases": [
+          "AV"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Yamagata",
+       "samples": 74,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Tsuruoka",
+         "samples": 74,
+         "projects": 1,
+         "diseases": [
+          "AV"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Singapore",
+     "samples": 762,
+     "projects": 4,
+     "children": [
+      {
+       "name": "Singapore",
+       "samples": 762,
+       "projects": 4,
+       "children": [
+        {
+         "name": "Singapore",
+         "samples": 762,
+         "projects": 4,
+         "diseases": [
+          "AD",
+          "SCALP"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Malaysia",
+     "samples": 643,
+     "projects": 1,
+     "children": [
+      {
+       "name": "Unknown",
+       "samples": 643,
+       "projects": 1,
+       "children": [
+        {
+         "name": "George_Town",
+         "samples": 643,
+         "projects": 1,
+         "diseases": [
+          "Tilapia"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Korea,South",
+     "samples": 420,
+     "projects": 4,
+     "children": [
+      {
+       "name": "Jeollanam-do",
+       "samples": 176,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Gwangju",
+         "samples": 176,
+         "projects": 1,
+         "diseases": [
+          "AGING"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Gangwon-do",
+       "samples": 94,
+       "projects": 1,
+       "children": [
+        {
+         "name": "P'yongch'ang",
+         "samples": 94,
+         "projects": 1,
+         "diseases": [
+          "AD"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "North Chungcheong",
+       "samples": 84,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Cheongju",
+         "samples": 84,
+         "projects": 1,
+         "diseases": [
+          "NORMAL"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Unknown",
+       "samples": 66,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Seoul",
+         "samples": 66,
+         "projects": 1,
+         "diseases": [
+          "Toad"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Israel",
+     "samples": 232,
+     "projects": 1,
+     "children": [
+      {
+       "name": "Israel",
+       "samples": 232,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Galilee_Region",
+         "samples": 232,
+         "projects": 1,
+         "diseases": [
+          "Israeli_frog"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "India",
+     "samples": 216,
+     "projects": 1,
+     "children": [
+      {
+       "name": "West Bengal",
+       "samples": 216,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Kalyani",
+         "samples": 216,
+         "projects": 1,
+         "diseases": [
+          "AD"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Philippines",
+     "samples": 179,
+     "projects": 1,
+     "children": [
+      {
+       "name": "Manila",
+       "samples": 179,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Manila",
+         "samples": 179,
+         "projects": 1,
+         "diseases": [
+          "MI"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Oceania",
+   "samples": 2187,
+   "projects": 3,
+   "children": [
+    {
+     "name": "Australia",
+     "samples": 2187,
+     "projects": 3,
+     "children": [
+      {
+       "name": "Victoria",
+       "samples": 1348,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Melbourne",
+         "samples": 1348,
+         "projects": 1,
+         "diseases": [
+          "MI"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Queensland",
+       "samples": 581,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Brisbane",
+         "samples": 581,
+         "projects": 1,
+         "diseases": [
+          "TUMOR"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "New South Wales",
+       "samples": 258,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Sydney",
+         "samples": 258,
+         "projects": 1,
+         "diseases": [
+          "DW"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "South America",
+   "samples": 1745,
+   "projects": 5,
+   "children": [
+    {
+     "name": "Brazil",
+     "samples": 1164,
+     "projects": 4,
+     "children": [
+      {
+       "name": "Unknown",
+       "samples": 819,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Brazil: Bahia, Mata de Sao Joao",
+         "samples": 819,
+         "projects": 1,
+         "diseases": [
+          "Atlantic_forest_frog"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "São Paulo",
+       "samples": 239,
+       "projects": 2,
+       "children": [
+        {
+         "name": "Parque Estadual da Serra do Mar",
+         "samples": 229,
+         "projects": 1,
+         "diseases": [
+          "Brazilian_frog"
+         ]
+        },
+        {
+         "name": "Guaratiba",
+         "samples": 10,
+         "projects": 1,
+         "diseases": [
+          "Fish"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Minas Gerais",
+       "samples": 76,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Belo_Horizonte",
+         "samples": 76,
+         "projects": 1,
+         "diseases": [
+          "SCALP"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Espírito Santo",
+       "samples": 10,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Fundão",
+         "samples": 10,
+         "projects": 1,
+         "diseases": [
+          "Fish"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Santa Catarina",
+       "samples": 10,
+       "projects": 1,
+       "children": [
+        {
+         "name": "São_Francisco_do_Sul",
+         "samples": 10,
+         "projects": 1,
+         "diseases": [
+          "Fish"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Rio de Janeiro",
+       "samples": 10,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Picinguaba",
+         "samples": 10,
+         "projects": 1,
+         "diseases": [
+          "Fish"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Mexico",
+     "samples": 581,
+     "projects": 1,
+     "children": [
+      {
+       "name": "Distrito Federal",
+       "samples": 581,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Mexico",
+         "samples": 581,
+         "projects": 1,
+         "diseases": [
+          "AD"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Africa",
+   "samples": 92,
+   "projects": 2,
+   "children": [
+    {
+     "name": "Ghana",
+     "samples": 82,
+     "projects": 1,
+     "children": [
+      {
+       "name": "Ashanti Region",
+       "samples": 82,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Kumasi",
+         "samples": 82,
+         "projects": 1,
+         "diseases": [
+          "WS"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "South Africa",
+     "samples": 10,
+     "projects": 1,
+     "children": [
+      {
+       "name": "Free State",
+       "samples": 10,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Bloemfontein",
+         "samples": 10,
+         "projects": 1,
+         "diseases": [
+          "Zebrafish"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Unknown",
+   "samples": 77,
+   "projects": 1,
+   "children": [
+    {
+     "name": "Unknown",
+     "samples": 77,
+     "projects": 1,
+     "children": [
+      {
+       "name": "Unknown",
+       "samples": 77,
+       "projects": 1,
+       "children": [
+        {
+         "name": "Unknown",
+         "samples": 77,
+         "projects": 1,
+         "diseases": [
+          "Killer_whale"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "diseaseByContinent": {
+  "AD": {
+   "Asia": 2077,
+   "Europe": 3300,
+   "North America": 11482,
+   "South America": 581
+  },
+  "AGING": {
+   "Asia": 176,
+   "North America": 2044
+  },
+  "AR": {
+   "Asia": 118
+  },
+  "AV": {
+   "Asia": 402,
+   "Europe": 902,
+   "North America": 205
+  },
+  "African_clawed_frog": {
+   "Europe": 42
+  },
+  "Atlantic_forest_frog": {
+   "South America": 819
+  },
+  "Atlantic_salmon": {
+   "Europe": 52
+  },
+  "BURN": {
+   "North America": 229
+  },
+  "Bank_vole": {
+   "Europe": 157
+  },
+  "Beluga_whale": {
+   "North America": 119
+  },
+  "Bonobo": {
+   "Europe": 87
+  },
+  "Brazilian_frog": {
+   "South America": 229
+  },
+  "CW": {
+   "Europe": 188,
+   "North America": 517
+  },
+  "Carp": {
+   "Europe": 642
+  },
+  "Cat": {
+   "North America": 198
+  },
+  "Chicken": {
+   "Asia": 9
+  },
+  "Cow": {
+   "Europe": 114
+  },
+  "Crocodile_lizard": {
+   "Asia": 16
+  },
+  "DW": {
+   "Europe": 237,
+   "North America": 2085,
+   "Oceania": 258
+  },
+  "Dog": {
+   "Europe": 63,
+   "North America": 278
+  },
+  "Dolphin": {
+   "North America": 184
+  },
+  "European_catfish": {
+   "Europe": 76
+  },
+  "Fish": {
+   "South America": 40
+  },
+  "Freshwater_turtle": {
+   "North America": 268
+  },
+  "Horse": {
+   "Europe": 24
+  },
+  "Israeli_frog": {
+   "Asia": 232
+  },
+  "Killer_whale": {
+   "Unknown": 77
+  },
+  "MI": {
+   "Asia": 2701,
+   "Europe": 5819,
+   "North America": 4891,
+   "Oceania": 1348
+  },
+  "Mammal": {
+   "North America": 512
+  },
+  "Marine_mammals": {
+   "North America": 192
+  },
+  "NORMAL": {
+   "Asia": 4959,
+   "Europe": 599,
+   "North America": 1378
+  },
+  "North_American_wood_frog": {
+   "North America": 79
+  },
+  "Octopus": {
+   "North America": 25
+  },
+  "PSO": {
+   "Asia": 322,
+   "Europe": 841,
+   "North America": 658
+  },
+  "Passerine_birds": {
+   "Europe": 143
+  },
+  "Persian_cat": {
+   "North America": 34
+  },
+  "Pig": {
+   "Europe": 255,
+   "North America": 363
+  },
+  "Rhesus_macaque": {
+   "North America": 110
+  },
+  "SCALP": {
+   "Asia": 58,
+   "Europe": 212,
+   "North America": 449,
+   "South America": 76
+  },
+  "SCAR": {
+   "Asia": 199,
+   "Europe": 34
+  },
+  "Salamander": {
+   "North America": 258
+  },
+  "Seal": {
+   "Europe": 96
+  },
+  "Shark": {
+   "Europe": 22
+  },
+  "Sheep": {
+   "Europe": 267
+  },
+  "Spotted_frog": {
+   "North America": 92
+  },
+  "Storm_petrel": {
+   "North America": 119
+  },
+  "Striped_bass": {
+   "North America": 94
+  },
+  "TUMOR": {
+   "Europe": 39,
+   "North America": 372,
+   "Oceania": 581
+  },
+  "Tilapia": {
+   "Asia": 643
+  },
+  "Toad": {
+   "Asia": 66
+  },
+  "Trout": {
+   "Europe": 357
+  },
+  "WS": {
+   "Africa": 82
+  },
+  "Zebrafish": {
+   "Africa": 10
+  }
+ }
+}

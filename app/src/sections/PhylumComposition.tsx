@@ -1,0 +1,51 @@
+import { phylumData, fmt } from '../data'
+import type { PhylumGroupRow } from '../data'
+
+export const PHYLA_COLORS = [
+  '#f472b6', '#c084fc', '#818cf8', '#60a5fa', '#34d399',
+  '#fbbf24', '#fb923c', '#f87171', '#a3e635', '#2dd4bf',
+]
+export const OTHER_COLOR = 'rgba(255,255,255,0.18)'
+
+const LEGEND = [...phylumData.topPhyla, 'Other']
+
+export function phylumColor(ph: string): string {
+  const i = LEGEND.indexOf(ph)
+  if (ph === 'Other' || i < 0) return OTHER_COLOR
+  return PHYLA_COLORS[i % PHYLA_COLORS.length]
+}
+
+/** 单个分组（某地区/疾病）的门水平组成面板：堆叠条 + 百分比明细 */
+export default function PhylumComposition({ row }: { row: PhylumGroupRow }) {
+  const segments = LEGEND.map((ph) => ({ ph, v: Number(row[ph] ?? 0) })).filter((s) => s.v > 0)
+
+  return (
+    <div>
+      <div className="flex h-7 w-full overflow-hidden rounded-lg bg-white/[0.04]">
+        {segments.map((s) => (
+          <div
+            key={s.ph}
+            title={`${s.ph}: ${s.v}%`}
+            className="h-full transition-all duration-300 hover:brightness-125"
+            style={{ width: `${s.v}%`, backgroundColor: phylumColor(s.ph) }}
+          />
+        ))}
+      </div>
+      <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1.5">
+        {segments.map((s) => (
+          <span key={s.ph} className="flex items-center gap-1.5 text-[12px] text-purple-100/85">
+            <span
+              className="inline-block h-2.5 w-2.5 rounded-sm"
+              style={{ backgroundColor: phylumColor(s.ph) }}
+            />
+            <span className={s.ph === 'Other' ? '' : 'italic'}>{s.ph}</span>
+            <span className="font-semibold text-white">{s.v}%</span>
+          </span>
+        ))}
+      </div>
+      <p className="mt-2.5 text-xs text-purple-200/50">
+        基于 {row.projects} 个匹配项目 · 总测序计数 {fmt(row.totalCount)}
+      </p>
+    </div>
+  )
+}
