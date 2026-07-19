@@ -5,3 +5,11 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# 私密原始数据（禁止入库，仅存本地备份）
+*.xlsx
+phylum_count_by_sample.csv
+phylum_overall_summary.csv
+/summary_data.json
+gen_data.py
+gen_phylum.py
