@@ -28,7 +28,7 @@ export default function Hero() {
           </div>
           <div className="h-20 w-px bg-white/25" />
           <h1 className="text-left text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl">
-            SMITH
+            SMOOTH Plus
             <br />
             Microbiome
             <br />
