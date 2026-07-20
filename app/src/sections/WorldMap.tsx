@@ -45,9 +45,9 @@ export default function WorldMap() {
       backgroundColor: 'transparent',
       tooltip: {
         trigger: 'item',
-        backgroundColor: '#2a1d4d',
-        borderColor: 'rgba(255,255,255,0.15)',
-        textStyle: { color: '#fff', fontSize: 13 },
+        backgroundColor: '#ffffff',
+        borderColor: 'rgba(31,36,48,0.12)',
+        textStyle: { color: '#1F2430', fontSize: 13 },
         formatter: (p: { data?: CountryDatum; name: string }) => {
           const d = p.data
           if (!d || d.value == null || Number.isNaN(d.value)) {
@@ -63,8 +63,8 @@ export default function WorldMap() {
         bottom: 8,
         orient: 'horizontal',
         text: ['More samples', 'Fewer'],
-        textStyle: { color: 'rgba(233,213,255,0.75)', fontSize: 12 },
-        inRange: { color: ['#382a5e', '#6d4aa8', '#a56fd6', '#e879f9'] },
+        textStyle: { color: '#5B6372', fontSize: 12 },
+        inRange: { color: ['#FFF3D6', '#FFC300', '#FF9F1C', '#FF4D8D'] },
         calculable: false,
         itemWidth: 14,
         itemHeight: 120,
@@ -78,13 +78,13 @@ export default function WorldMap() {
           layoutCenter: ['50%', '52%'],
           layoutSize: '105%',
           itemStyle: {
-            areaColor: 'rgba(255,255,255,0.045)',
-            borderColor: 'rgba(216,180,254,0.28)',
+            areaColor: 'rgba(31,36,48,0.045)',
+            borderColor: 'rgba(31,36,48,0.22)',
             borderWidth: 0.6,
           },
           emphasis: {
             label: { show: false },
-            itemStyle: { areaColor: '#f0abfc', shadowBlur: 18, shadowColor: 'rgba(232,121,249,0.6)' },
+            itemStyle: { areaColor: '#4CC9F0', shadowBlur: 18, shadowColor: 'rgba(76,201,240,0.6)' },
           },
           select: { disabled: true },
           data: countryData,

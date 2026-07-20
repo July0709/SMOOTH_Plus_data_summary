@@ -64,10 +64,10 @@ export default function Explorer() {
 
   return (
     <section className="mx-auto max-w-5xl px-6 py-20">
-      <h2 className="mb-4 text-center text-sm font-semibold uppercase tracking-[0.35em] text-purple-200/80">
+      <h2 className="mb-4 text-center text-sm font-semibold uppercase tracking-[0.35em] text-[#7B61FF]">
         Explorer
       </h2>
-      <p className="mb-10 text-center text-purple-100/75">
+      <p className="mb-10 text-center text-slate-600">
         逐层下钻：Continent → Country → Province → City，点击条目进入下一层级并查看该地的门水平组成。
       </p>
 
@@ -75,13 +75,13 @@ export default function Explorer() {
       <div className="mb-6 flex flex-wrap items-center justify-center gap-1.5 text-sm">
         {path.map((c, i) => (
           <span key={i} className="flex items-center gap-1.5">
-            {i > 0 && <ChevronRight className="h-3.5 w-3.5 text-purple-300/50" />}
+            {i > 0 && <ChevronRight className="h-3.5 w-3.5 text-slate-300" />}
             <button
               onClick={() => jump(i)}
-              className={`rounded-full px-4 py-1.5 transition ${
+              className={`rounded-full border px-4 py-1.5 transition ${
                 i === path.length - 1 && !selectedCity
-                  ? 'bg-fuchsia-400/25 font-medium text-white'
-                  : 'bg-white/[0.05] text-purple-200/80 hover:bg-white/[0.1]'
+                  ? 'border-[#FF4D8D] bg-[#FF4D8D]/10 font-medium text-[#E1306C]'
+                  : 'border-slate-200 bg-white text-slate-500 hover:border-[#4CC9F0]/60 hover:text-[#0E8FB8]'
               }`}
             >
               {c.name}
@@ -90,8 +90,8 @@ export default function Explorer() {
         ))}
         {selectedCity && (
           <span className="flex items-center gap-1.5">
-            <ChevronRight className="h-3.5 w-3.5 text-purple-300/50" />
-            <span className="rounded-full bg-fuchsia-400/25 px-4 py-1.5 font-medium text-white">
+            <ChevronRight className="h-3.5 w-3.5 text-slate-300" />
+            <span className="rounded-full border border-[#FF4D8D] bg-[#FF4D8D]/10 px-4 py-1.5 font-medium text-[#E1306C]">
               {selectedCity}
             </span>
           </span>
@@ -100,30 +100,30 @@ export default function Explorer() {
 
       {/* phylum composition of selected node */}
       {composition && (
-        <div className="mb-6 rounded-3xl border border-fuchsia-300/20 bg-fuchsia-400/[0.05] p-6">
+        <div className="mb-6 rounded-3xl border-2 border-[#7B61FF]/25 bg-[#7B61FF]/[0.05] p-6">
           <div className="mb-4 flex items-center gap-2.5">
-            <Dna className="h-5 w-5 text-fuchsia-300" />
-            <h3 className="text-base font-semibold text-white">
+            <Dna className="h-5 w-5 text-[#7B61FF]" />
+            <h3 className="text-base font-semibold text-[#1F2430]">
               {composition.title} · Phylum composition
             </h3>
           </div>
           {composition.row ? (
             <PhylumComposition row={composition.row} />
           ) : (
-            <p className="text-sm text-purple-200/60">
+            <p className="text-sm text-slate-500">
               该条目暂无匹配的门水平测序数据（phylum 矩阵覆盖 {phylumData.matchedProjects} 个项目）。
             </p>
           )}
         </div>
       )}
 
-      <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-7">
+      <div className="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
         <div className="mb-5 flex items-center justify-between">
           <div className="flex items-center gap-2.5">
-            <LevelIcon className="h-5 w-5 text-fuchsia-300" />
-            <h3 className="text-lg font-semibold text-white">{LEVELS[level]} level</h3>
+            <LevelIcon className="h-5 w-5 text-[#FF4D8D]" />
+            <h3 className="text-lg font-semibold text-[#1F2430]">{LEVELS[level]} level</h3>
           </div>
-          <span className="text-sm text-purple-200/70">
+          <span className="text-sm text-slate-500">
             {current.length} entries · {fmt(total)} samples
           </span>
         </div>
@@ -139,31 +139,29 @@ export default function Explorer() {
                 onClick={() => drill(n)}
                 className={`group relative overflow-hidden rounded-xl border p-4 text-left transition ${
                   selected
-                    ? 'border-fuchsia-300/60 bg-fuchsia-400/[0.12]'
-                    : leaf
-                      ? 'border-white/8 bg-white/[0.04] hover:border-fuchsia-300/40 hover:bg-white/[0.07]'
-                      : 'border-white/8 bg-white/[0.04] hover:border-fuchsia-300/40 hover:bg-white/[0.07]'
+                    ? 'border-[#FF4D8D] bg-[#FF4D8D]/[0.08]'
+                    : 'border-slate-200 bg-white hover:border-[#FF4D8D]/50 hover:bg-[#FFF6FA]'
                 }`}
               >
                 <div
-                  className="absolute inset-y-0 left-0 bg-gradient-to-r from-fuchsia-500/15 to-transparent"
+                  className="absolute inset-y-0 left-0 bg-gradient-to-r from-[#FF9F1C]/15 to-transparent"
                   style={{ width: `${Math.max(pct, 2)}%` }}
                 />
                 <div className="relative flex items-start justify-between gap-3">
                   <div className="min-w-0">
-                    <div className="truncate font-medium text-purple-50" title={n.name}>{n.name}</div>
-                    <div className="mt-1 text-xs text-purple-200/65">
+                    <div className="truncate font-medium text-slate-800" title={n.name}>{n.name}</div>
+                    <div className="mt-1 text-xs text-slate-500">
                       {fmt(n.samples)} samples · {n.projects} projects
                     </div>
                     {isCity(n) && (
                       <div className="mt-2 flex flex-wrap gap-1">
                         {n.diseases.slice(0, 6).map((d) => (
-                          <span key={d} className="rounded-full bg-white/[0.08] px-2 py-0.5 text-[11px] text-purple-200/80">
+                          <span key={d} className="rounded-full bg-[#4CC9F0]/10 px-2 py-0.5 text-[11px] text-[#0E8FB8]">
                             {d}
                           </span>
                         ))}
                         {n.diseases.length > 6 && (
-                          <span className="px-1 text-[11px] text-purple-300/60">+{n.diseases.length - 6}</span>
+                          <span className="px-1 text-[11px] text-slate-400">+{n.diseases.length - 6}</span>
                         )}
                       </div>
                     )}
@@ -171,11 +169,11 @@ export default function Explorer() {
                   {leaf ? (
                     <Dna
                       className={`mt-0.5 h-4 w-4 shrink-0 transition ${
-                        selected ? 'text-fuchsia-300' : 'text-purple-300/40 group-hover:text-fuchsia-300'
+                        selected ? 'text-[#FF4D8D]' : 'text-slate-300 group-hover:text-[#FF4D8D]'
                       }`}
                     />
                   ) : (
-                    <ChevronRight className="mt-0.5 h-4 w-4 shrink-0 text-purple-300/50 transition group-hover:translate-x-0.5 group-hover:text-fuchsia-300" />
+                    <ChevronRight className="mt-0.5 h-4 w-4 shrink-0 text-slate-300 transition group-hover:translate-x-0.5 group-hover:text-[#FF4D8D]" />
                   )}
                 </div>
               </button>
