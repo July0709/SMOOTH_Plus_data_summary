@@ -2,10 +2,10 @@ import { phylumData, fmt } from '../data'
 import type { PhylumGroupRow } from '../data'
 
 export const PHYLA_COLORS = [
-  '#FF4D8D', '#FF9F1C', '#4CC9F0', '#06D6A0', '#7B61FF',
-  '#FFC300', '#EC4899', '#0EA5E9', '#10B981', '#F97316',
+  '#C8A45D', '#7C9EB2', '#A87FB8', '#6FA287', '#B0766A',
+  '#8C97C6', '#D0B27A', '#5E8F96', '#9678A8', '#74875F',
 ]
-export const OTHER_COLOR = 'rgba(31,36,48,0.15)'
+export const OTHER_COLOR = 'rgba(237,234,226,0.18)'
 
 const LEGEND = [...phylumData.topPhyla, 'Other']
 
@@ -21,29 +21,29 @@ export default function PhylumComposition({ row }: { row: PhylumGroupRow }) {
 
   return (
     <div>
-      <div className="flex h-7 w-full overflow-hidden rounded-lg bg-slate-100">
+      <div className="flex h-7 w-full overflow-hidden rounded-lg bg-white/[0.05]">
         {segments.map((s) => (
           <div
             key={s.ph}
             title={`${s.ph}: ${s.v}%`}
-            className="h-full transition-all duration-300 hover:brightness-110"
+            className="h-full transition-all duration-300 hover:brightness-125"
             style={{ width: `${s.v}%`, backgroundColor: phylumColor(s.ph) }}
           />
         ))}
       </div>
       <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1.5">
         {segments.map((s) => (
-          <span key={s.ph} className="flex items-center gap-1.5 text-[12px] text-slate-600">
+          <span key={s.ph} className="flex items-center gap-1.5 text-[12px] text-slate-400">
             <span
               className="inline-block h-2.5 w-2.5 rounded-sm"
               style={{ backgroundColor: phylumColor(s.ph) }}
             />
             <span className={s.ph === 'Other' ? '' : 'italic'}>{s.ph}</span>
-            <span className="font-semibold text-[#1F2430]">{s.v}%</span>
+            <span className="font-semibold text-[#EDEAE2]">{s.v}%</span>
           </span>
         ))}
       </div>
-      <p className="mt-2.5 text-xs text-slate-400">
+      <p className="mt-2.5 text-xs text-slate-500">
         基于 {row.projects} 个匹配项目 · 总测序计数 {fmt(row.totalCount)}
       </p>
     </div>

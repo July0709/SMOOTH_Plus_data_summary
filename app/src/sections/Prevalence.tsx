@@ -10,19 +10,19 @@ const WorldMap = lazy(() => import('./WorldMap'))
 type GeoKey = 'continent' | 'country' | 'province' | 'city'
 
 const PALETTE = [
-  '#FF4D8D', '#FF9F1C', '#4CC9F0', '#06D6A0', '#7B61FF', '#FFC300',
-  '#F754A3', '#FFB84D', '#2BB3E6', '#34D399', '#9B7BFF', '#FFD84D',
-  '#E1306C', '#F97316', '#0EA5E9', '#10B981', '#6D28D9', '#F59E0B',
-  '#EC4899', '#14B8A6',
+  '#C8A45D', '#7C9EB2', '#A87FB8', '#6FA287', '#B0766A', '#8C97C6',
+  '#D0B27A', '#5E8F96', '#9678A8', '#74875F', '#C08A5E', '#7A8BA8',
+  '#B89B5E', '#648A94', '#8F7BA8', '#7E967A', '#A87E7E', '#94A3B8',
+  '#C8A45D', '#6FA287',
 ]
 
 const tooltipStyle = {
-  backgroundColor: '#ffffff',
-  border: '1px solid rgba(31,36,48,0.12)',
+  backgroundColor: '#12182B',
+  border: '1px solid rgba(200,164,93,0.25)',
   borderRadius: 12,
-  color: '#1F2430',
+  color: '#EDEAE2',
   fontSize: 13,
-  boxShadow: '0 8px 24px rgba(31,36,48,0.12)',
+  boxShadow: '0 12px 32px rgba(0,0,0,0.5)',
 }
 
 export default function Prevalence() {
@@ -56,23 +56,32 @@ export default function Prevalence() {
   const maxGeo = Math.max(...geoRows.map((r) => r.samples), 1)
 
   return (
-    <section className="mx-auto max-w-6xl px-6 py-20">
-      <h2 className="mb-4 text-center text-sm font-semibold uppercase tracking-[0.35em] text-[#4CC9F0]">
-        Prevalence
-      </h2>
-      <p className="mb-12 text-center text-slate-600">
+    <section className="mx-auto max-w-6xl px-6 py-24">
+      <div className="mb-4 flex items-center justify-center gap-4">
+        <span className="h-px w-10 bg-gradient-to-r from-transparent to-[#C8A45D]/60" />
+        <h2 className="text-center text-sm font-medium uppercase tracking-[0.45em] text-[#C8A45D]">
+          Prevalence
+        </h2>
+        <span className="h-px w-10 bg-gradient-to-l from-transparent to-[#C8A45D]/60" />
+      </div>
+      <p className="mb-12 text-center text-slate-400">
         世界地图按国家样本量填色，或切换地理层级 / 疾病维度查看分布。
       </p>
 
       {/* world map */}
-      <div className="mb-8 rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
+      <div className="mb-8 rounded-2xl border border-white/10 bg-white/[0.03] p-7 shadow-[0_24px_60px_rgba(0,0,0,0.35)]">
         <div className="mb-2 flex items-center justify-between">
-          <h3 className="text-lg font-semibold text-[#1F2430]">World Map · Samples by Country</h3>
-          <span className="text-sm text-slate-400">滚轮缩放 · 拖拽平移</span>
+          <h3
+            className="text-lg font-semibold tracking-wide text-[#F3EEE3]"
+            style={{ fontFamily: "'Playfair Display', 'Noto Serif SC', serif" }}
+          >
+            World Map · Samples by Country
+          </h3>
+          <span className="text-sm text-slate-500">滚轮缩放 · 拖拽平移</span>
         </div>
         <Suspense
           fallback={
-            <div className="flex h-[480px] w-full items-center justify-center text-sm text-slate-400 sm:h-[540px]">
+            <div className="flex h-[480px] w-full items-center justify-center text-sm text-slate-500 sm:h-[540px]">
               地图加载中…
             </div>
           }
@@ -83,22 +92,27 @@ export default function Prevalence() {
 
       <div className="grid gap-8 lg:grid-cols-2">
         {/* geography bars */}
-        <div className="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
+        <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-7 shadow-[0_24px_60px_rgba(0,0,0,0.35)]">
           <div className="mb-6 flex items-center justify-between">
-            <h3 className="text-lg font-semibold text-[#1F2430]">Geography</h3>
-            <div className="flex items-center gap-2 text-sm text-slate-600">
+            <h3
+              className="text-lg font-semibold tracking-wide text-[#F3EEE3]"
+              style={{ fontFamily: "'Playfair Display', 'Noto Serif SC', serif" }}
+            >
+              Geography
+            </h3>
+            <div className="flex items-center gap-2 text-sm text-slate-400">
               Group by
               <div className="relative">
                 <select
                   value={geoKey}
                   onChange={(e) => setGeoKey(e.target.value as GeoKey)}
-                  className="appearance-none rounded-xl border border-slate-200 bg-white py-2 pl-4 pr-9 text-sm capitalize text-[#1F2430] shadow-sm outline-none [&>option]:bg-white"
+                  className="appearance-none rounded-xl border border-white/10 bg-white/[0.04] py-2 pl-4 pr-9 text-sm capitalize text-[#EDEAE2] outline-none [&>option]:bg-[#12182B]"
                 >
                   {(['continent', 'country', 'province', 'city'] as const).map((k) => (
                     <option key={k} value={k}>{k}</option>
                   ))}
                 </select>
-                <ChevronDown className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
+                <ChevronDown className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-500" />
               </div>
             </div>
           </div>
@@ -107,33 +121,38 @@ export default function Prevalence() {
           <div className="space-y-2.5">
             {geoRows.map((r) => (
               <div key={r.name} className="group flex items-center gap-3">
-                <div className="w-36 shrink-0 truncate text-right text-[13px] text-slate-600" title={r.name}>
+                <div className="w-36 shrink-0 truncate text-right text-[13px] text-slate-400" title={r.name}>
                   {r.name}
                 </div>
-                <div className="relative h-6 flex-1 overflow-hidden rounded-md bg-slate-100">
+                <div className="relative h-6 flex-1 overflow-hidden rounded-md bg-white/[0.05]">
                   <div
-                    className="h-full rounded-md bg-gradient-to-r from-[#4CC9F0] to-[#FF4D8D] transition-all duration-500 group-hover:from-[#2BB3E6] group-hover:to-[#E1306C]"
+                    className="h-full rounded-md bg-gradient-to-r from-[#7C9EB2] to-[#C8A45D] transition-all duration-500 group-hover:from-[#9FC0D4] group-hover:to-[#E3C888]"
                     style={{ width: `${Math.max((r.samples / maxGeo) * 100, 1.5)}%` }}
                   />
                 </div>
-                <div className="w-16 shrink-0 text-right text-[13px] font-semibold text-[#1F2430]">
+                <div className="w-16 shrink-0 text-right text-[13px] font-semibold text-[#EDEAE2]">
                   {fmt(r.samples)}
                 </div>
               </div>
             ))}
           </div>
-          <div className="mt-5 flex items-center justify-end gap-3 text-xs text-slate-400">
+          <div className="mt-5 flex items-center justify-end gap-3 text-xs text-slate-500">
             <span>Fewer</span>
-            <span className="h-2.5 w-24 rounded-full bg-gradient-to-r from-[#4CC9F0]/50 to-[#FF4D8D]" />
+            <span className="h-2.5 w-24 rounded-full bg-gradient-to-r from-[#7C9EB2]/50 to-[#C8A45D]" />
             <span>More samples</span>
           </div>
         </div>
 
         {/* disease bars */}
-        <div className="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
+        <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-7 shadow-[0_24px_60px_rgba(0,0,0,0.35)]">
           <div className="mb-6 flex items-center justify-between">
-            <h3 className="text-lg font-semibold text-[#1F2430]">Disease</h3>
-            <span className="text-sm text-slate-400">Top 16 by samples</span>
+            <h3
+              className="text-lg font-semibold tracking-wide text-[#F3EEE3]"
+              style={{ fontFamily: "'Playfair Display', 'Noto Serif SC', serif" }}
+            >
+              Disease
+            </h3>
+            <span className="text-sm text-slate-500">Top 16 by samples</span>
           </div>
           <div className="h-[460px]">
             <ResponsiveContainer width="100%" height="100%">
@@ -143,12 +162,12 @@ export default function Prevalence() {
                   type="category"
                   dataKey="name"
                   width={88}
-                  tick={{ fill: '#5B6372', fontSize: 12 }}
+                  tick={{ fill: '#8A93A6', fontSize: 12 }}
                   axisLine={false}
                   tickLine={false}
                 />
                 <Tooltip
-                  cursor={{ fill: 'rgba(31,36,48,0.05)' }}
+                  cursor={{ fill: 'rgba(255,255,255,0.04)' }}
                   contentStyle={tooltipStyle}
                   formatter={(v: number, _n, item) => [
                     `${fmt(v)} samples · ${(item.payload as { projects: number }).projects} projects`,
@@ -163,7 +182,7 @@ export default function Prevalence() {
                     dataKey="samples"
                     position="right"
                     formatter={(v: number) => fmt(v)}
-                    style={{ fill: '#5B6372', fontSize: 11 }}
+                    style={{ fill: '#8A93A6', fontSize: 11 }}
                   />
                 </Bar>
               </BarChart>

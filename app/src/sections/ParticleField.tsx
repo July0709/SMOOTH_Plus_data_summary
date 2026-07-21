@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 
-// 多巴胺调色板
-const COLORS = ['#FF4D8D', '#FFC300', '#4CC9F0', '#06D6A0', '#FF9F1C', '#7B61FF']
+// 香槟金 · 星尘调色板
+const COLORS = ['#C8A45D', '#E3C888', '#7C9EB2', '#D0B27A', '#8C97C6']
 const LINK_DIST = 110
 const MOUSE_LINK_DIST = 160
 const MOUSE_REPEL_DIST = 130

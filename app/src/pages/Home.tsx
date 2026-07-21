@@ -5,47 +5,43 @@ import Prevalence from '../sections/Prevalence'
 import PhylaSection from '../sections/PhylaSection'
 import Explorer from '../sections/Explorer'
 
-const DIVIDERS = ['#FF4D8D', '#FFC300', '#4CC9F0', '#06D6A0', '#7B61FF']
-
-function Divider({ color }: { color: string }) {
+function Divider() {
   return (
-    <div
-      aria-hidden
-      className="mx-auto h-1 max-w-3xl rounded-full"
-      style={{
-        background: `linear-gradient(90deg, transparent 0%, ${color}66 30%, ${color}66 70%, transparent 100%)`,
-      }}
-    />
+    <div aria-hidden className="mx-auto flex max-w-3xl items-center gap-5 px-6">
+      <div className="h-px flex-1 bg-gradient-to-r from-transparent to-[#C8A45D]/45" />
+      <div className="h-1.5 w-1.5 rotate-45 border border-[#C8A45D]/70" />
+      <div className="h-px flex-1 bg-gradient-to-l from-transparent to-[#C8A45D]/45" />
+    </div>
   )
 }
 
 export default function Home() {
   return (
     <div
-      className="min-h-screen text-[#1F2430] antialiased"
+      className="min-h-screen text-[#EDEAE2] antialiased"
       style={{
         background:
-          'radial-gradient(1000px 520px at 50% -10%, #FFE1EF 0%, transparent 60%), linear-gradient(180deg, #FFF9F0 0%, #FFF3F7 45%, #EFF9FF 100%)',
+          'radial-gradient(1100px 560px at 50% -12%, rgba(200,164,93,0.10) 0%, transparent 62%), radial-gradient(900px 500px at 88% 30%, rgba(124,158,178,0.05) 0%, transparent 60%), linear-gradient(180deg, #0B1020 0%, #0A0E1A 45%, #0B1120 100%)',
         fontFamily: "'Inter', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif",
       }}
     >
       <Hero />
-      <Divider color={DIVIDERS[0]} />
+      <Divider />
       <Overview />
-      <Divider color={DIVIDERS[1]} />
+      <Divider />
       <SearchSection />
-      <Divider color={DIVIDERS[2]} />
+      <Divider />
       <Prevalence />
-      <Divider color={DIVIDERS[3]} />
+      <Divider />
       <PhylaSection />
-      <Divider color={DIVIDERS[4]} />
+      <Divider />
       <Explorer />
 
-      <footer className="mt-10 border-t-2 border-[#FF4D8D]/20 bg-white/70 px-6 py-10">
+      <footer className="mt-10 border-t border-[#C8A45D]/15 bg-black/20 px-6 py-12">
         <div className="mx-auto flex max-w-5xl flex-col items-center gap-2 text-center text-sm text-slate-500">
           <p>
-            数据来源：<span className="font-medium text-[#E1306C]">SMITH-0331-Sproject.xlsx · 城市已分配版本</span>
-            　·　<span className="font-medium text-[#5B3DF5]">phylum_overall_summary / phylum_count_by_sample</span>
+            数据来源：<span className="font-medium text-[#E3C888]">SMITH-0331-Sproject.xlsx · 城市已分配版本</span>
+            　·　<span className="font-medium text-[#9FC0D4]">phylum_overall_summary / phylum_count_by_sample</span>
           </p>
           <p>按 disease · continent · country · province · city · phylum 汇总 · 样本数以 sample_count 计</p>
         </div>
